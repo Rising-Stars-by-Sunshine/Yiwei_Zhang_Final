@@ -1,4 +1,49 @@
-# Yiwei_Zhang_Final_Project
+# Project Title: A Dual Approach to Stock Market Analysis: Integrating Machine Learning Forecasting and Regression Discontinuity to Assess the Impact of the Federal Reserve’s COVID-19 Policy Intervention on Investor Sentiment
+
+## Author
+- **Yiwei Zhang** - *Brainstorm, Research Design, Data Analysis, Implementation*
+
+
+## Disclaimer
+This project was submitted for **STATS201: Machine Learning for Social Science**  
+**Instructor:** Prof. Luyao Zhang  
+**Institution:** Duke Kunshan University  
+**Semester:** Autumn 2025  
+
+## 🙏 Acknowledgments
+We sincerely appreciate the guidance and support from:
+- **Prof. Luyao Zhang** for her valuable feedback and mentorship.
+- **Classmates** for their constructive discussions and peer reviews.
+- **AIGC Tools (e.g., ChatGPT, GitHub Copilot)** for assisting in code generation and debugging.
+- **Open-source libraries** including `scikit-learn`, `XGBoost`, `PyCaret`, and `Seaborn` for making this project possible.
+
+## 🚀 Statement of Intellectual and Professional Growth
+Throughout this project, we explored **machine learning techniques** in social sciences, particularly in **stock market prediction using investor sentiment analysis**.  
+Key takeaways include:
+- **Enhancing data preprocessing skills** using real-world financial datasets.
+- **Implementing and comparing machine learning models** (Linear Regression, Ridge, XGBoost).
+- **Understanding causal inference** using **Regression Discontinuity (RD) Design**.
+- **Improving collaboration and version control** through GitHub and project management tools.
+This experience has deepened our **statistical modeling expertise** and prepared us for further research in **computational social sciences**.
+
+## 📺 Demo Video & Poster
+🎥 **Demo Video:** [Embed or Link to Google Drive/YouTube]  
+🖼️ **Project Poster:** [Embed the poster image or link to PDF]  
+
+## 📖 Table of Contents
+- [📊 Introduction](#-introduction)
+- [📂 Dataset](#-dataset)
+- [⚙️ Methodology](#️-methodology)
+- [📈 Results](#-results)
+- [📌 Key Findings](#-key-findings)
+- [🔍 Limitations & Future Work](#-limitations--future-work)
+- [📎 References](#-references)
+- [👨‍💻 How to Run the Code](#-how-to-run-the-code)
+- [📜 License](#-license)
+
+---
+
+
 # A Dual Approach to Stock Market Analysis: Integrating Machine Learning Forecasting and Regression Discontinuity to Assess the Impact of the Federal Reserve’s COVID-19 Policy Intervention on Investor Sentiment
 
 # 🖥️ System Configuration Instructions
