@@ -5,27 +5,19 @@
 
 
 ## Disclaimer
-This project was submitted for **STATS201: Machine Learning for Social Science**  
-**Instructor:** Prof. Luyao Zhang  
-**Institution:** Duke Kunshan University  
-**Semester:** Autumn 2025  
+This project was submitted for **STATS201: Machine Learning for Social Science**, instructed by **Prof. Luyao Zhang** at Duke Kunshan University in Spring 2025.
 
-## 🙏 Acknowledgments
-We sincerely appreciate the guidance and support from:
-- **Prof. Luyao Zhang** for her valuable feedback and mentorship.
+## Acknowledgments
+I sincerely appreciate the guidance and support from:
+- **Prof. Luyao Zhang** for her valuable guidance, feedback and mentorship during the course.
 - **Classmates** for their constructive discussions and peer reviews.
-- **AIGC Tools (e.g., ChatGPT, GitHub Copilot)** for assisting in code generation and debugging.
-- **Open-source libraries** including `scikit-learn`, `XGBoost`, `PyCaret`, and `Seaborn` for making this project possible.
+- **AIGC Tools (e.g., ChatGPT-4o, GitHub Copilot)** for assisting in code generation and debugging.
+- **Open-source software** Python open source libraries (e.g.,`scikit-learn`, `XGBoost`, `PyCaret`, and `Seaborn`), Whimsical (flowchart design) for making this project possible.
 
-## 🚀 Statement of Intellectual and Professional Growth
-Throughout this project, we explored **machine learning techniques** in social sciences, particularly in **stock market prediction using investor sentiment analysis**.  
-Key takeaways include:
-- **Enhancing data preprocessing skills** using real-world financial datasets.
-- **Implementing and comparing machine learning models** (Linear Regression, Ridge, XGBoost).
-- **Understanding causal inference** using **Regression Discontinuity (RD) Design**.
-- **Improving collaboration and version control** through GitHub and project management tools.
-This experience has deepened our **statistical modeling expertise** and prepared us for further research in **computational social sciences**.
+## Statement of Intellectual and Professional Growth
+This course has opened a new door for me, introducing two significant aspects of my learning journey. First, I gained a comprehensive understanding of the research design process—from conceptualizing thought experiments and identifying relevant datasets to selecting appropriate machine learning techniques and implementing them through coding. Second, it provided a gateway into machine learning for social sciences, demonstrating how mainstream ML methods—such as explanation, prediction, and causal inference—can be applied to high-quality open-source datasets to drive cutting-edge research.
 
+Throughout the course, I developed foundations research methodlogy design, interdisciplinary problem-solving skills, and GitHub portfolio management, which were crucial in successfully executing this project. This final project experience helped me bridge theory and application by allowing me to explore real-world financial data, compare multiple machine learning models, and critically assess their predictive performance in the context of stock market volatility. This journey has not only strengthened my technical capabilities but also broadened my perspective on how machine learning can be leveraged for impactful research in ground breaking technologies and social sciences.
 ## 📺 Demo Video & Poster
 🎥 **Demo Video:** [Embed or Link to Google Drive/YouTube]  
 🖼️ **Project Poster:** [Embed the poster image or link to PDF]  
