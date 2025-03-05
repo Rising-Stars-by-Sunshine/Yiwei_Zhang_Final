@@ -49,7 +49,7 @@ This folder contains Jupyter notebooks for **data preprocessing, machine learnin
 - `Prediction (1).ipynb` – Implements AutoML models for stock price prediction based on historical stock price data.
 - `Prediction_2_version (1).ipynb` – Implements AutoML models for stock price prediction based on historical stock price data and sentiment data.
 - `Causal_Inference.ipynb` – Conducts regression discontinuity (RD) analysis (detailed in the appendix).
-
+- `README.md` – Documentation about the Jupyter notebooks. 
 ---
 
 ### **2. Datasets and Preprocessing Steps**
@@ -58,6 +58,7 @@ This folder contains all datasets used in this study, including stock prices and
 - `merged_stock_prices.csv` – The final dataset combining historical stock prices and sentiment scores.
 - `train_stockemo.csv` – The raw dataset containing investor sentiment labels.
 - `price_raw_data.zip` – Original stock price data before preprocessing.
+- `README.md` – Data dictionaries and detailed documentation about the data structure. 
 
 ---
 
