@@ -69,8 +69,9 @@ This folder provides **project documentation, methodology details, and reference
 - `Yiwei_Zhang_Final Project` – This is a research report that documents the research design and results.
 - Dependencies are listed within the [`/requirements.txt`](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Docs/requirements.txt) , which include required Python packages such as `pycaret`, `scikit-learn`, `pandas`, and `matplotlib`.
 
-📍 **Visualizations:** [`/Visualizations`](./Visualizations/)  
-- Contains detailed plots and figures summarizing the results, including final project posters.
+### **4. Visualizations**
+📍 **Location:** [`/Visualizations`](./Visualizations/)  
+- Contains detailed plots and figures summarizing the EDA, prediction performance, and causal inference results, including final project posters.
 ---
 
 ### 🚀 **How to Get Started**
