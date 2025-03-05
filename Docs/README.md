@@ -11,17 +11,12 @@ A **virtual environment** helps manage dependencies **without affecting global P
 
 #### **For Linux & macOS:**
 ```bash
-# Check if Python is installed
-python3 --version  
-
-# Install Python if not available
+# Install Python (if not installed)
 sudo apt install python3 python3-venv python3-pip  # Ubuntu/Debian
 brew install python                                # macOS
 
-# Create a virtual environment
+# Create & activate virtual environment
 python3 -m venv venv  
-
-# Activate the virtual environment
 source venv/bin/activate  
 
 # Deactivate when done
@@ -29,17 +24,13 @@ deactivate
 ```
 #### **For Windows:**
 ```bash
-# Check if Python is installed
+# Check Python installation
 python --version  
 
-# Create a virtual environment
+# Create & activate virtual environment
 python -m venv venv  
-
-# Activate the virtual environment (PowerShell)
-venv\Scripts\Activate.ps1  
-
-# Activate in Command Prompt (cmd.exe)
-venv\Scripts\activate  
+venv\Scripts\activate  # Command Prompt  
+venv\Scripts\Activate.ps1  # PowerShell  
 
 # Deactivate when done
 deactivate
