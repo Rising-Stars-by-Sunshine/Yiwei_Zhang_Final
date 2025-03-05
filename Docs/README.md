@@ -63,17 +63,24 @@ python --version
 
 ## Dependencies
 
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.6.1
-pycaret==3.0.0
-xgboost==2.1.4
-lightgbm==4.5.0
-matplotlib==3.10.0
-seaborn==0.13.2
-nltk==3.9.1
-transformers==4.48.3
-jupyter==1.0.0
-notebook==6.5.5
+**pandas==2.2.2**  
+**numpy==1.26.4**  
+**scikit-learn==1.6.1**  
+**pycaret==3.0.0**  
+**xgboost==2.1.4**  
+**lightgbm==4.5.0**  
+**matplotlib==3.10.0**  
+**seaborn==0.13.2**  
+**nltk==3.9.1**  
+**transformers==4.48.3**  
+**jupyter==1.0.0**  
+**notebook==6.5.5**  
+
+---
+
+## **Installation**  
+Run the following command to install all dependencies:  
+```sh
+pip install -r requirements.txt
 
 ## Example Usage
