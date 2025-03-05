@@ -1,4 +1,4 @@
-## Project Title: Investor Sentiment in Stock Price Forecasting and Policy Analysis: A Machine Learning Approach
+# Project Title: Investor Sentiment in Stock Price Forecasting and Policy Analysis: A Machine Learning Approach
 
 
 ## Author
