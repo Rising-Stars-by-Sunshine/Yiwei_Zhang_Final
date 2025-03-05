@@ -25,8 +25,8 @@ Throughout the course, I developed foundations research methodlogy design, inter
 
 
 ## 📖 Table of Contents
-- [Introduction](#introduction)
-- [Navigation Instructions](#navigation instructions)
+- [Acknowledgments](#Acknowledgments)
+- [Navigation Instructions](#navigation-instructions)
 - [📊 Datasets and Preprocessing](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Data/README.md)
 - [📂 Code](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Code)
 - [⚙️ Visualizations](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Visualizations)
@@ -34,21 +34,22 @@ Throughout the course, I developed foundations research methodlogy design, inter
 
 ---
 
-## 📂 Navigation Instructions
+## Navigation Instructions
 
 This repository is organized into multiple directories to facilitate **code execution, dataset access, and documentation review**. Below is a guide to navigating the repository:
 
-### 🔹 **1. Code for Simulations and Visualizations**
+### **1. Code for Model Training and Visualizations**
 📍 **Location:** [`/Code`](./Code/)  
 This folder contains Jupyter notebooks for **data preprocessing, machine learning predictions, and causal inference analysis**. Key files include:
 - `Data Preprocessing & EDA.ipynb` – Prepares and cleans the dataset before modeling.
-- `Prediction (1).ipynb` – Implements machine learning models for stock price prediction.
-- `Prediction_2_version (1).ipynb` – Integrates sentiment data into stock prediction.
+- `Machine_Learning_for_Explanation.ipynb` – Conducts automated literature review using arXiv API (detailed in the appendix).
+- `Prediction (1).ipynb` – Implements AutoML models for stock price prediction based on historical stock price data.
+- `Prediction_2_version (1).ipynb` – Implements AutoML models for stock price prediction based on historical stock price data and sentiment data.
 - `Causal_Inference.ipynb` – Conducts regression discontinuity (RD) analysis (detailed in the appendix).
 
 ---
 
-### 📂 **2. Datasets and Preprocessing Steps**
+### **2. Datasets and Preprocessing Steps**
 📍 **Location:** [`/Data`](./Data/)  
 This folder contains all datasets used in this study, including stock prices and sentiment analysis data. Key files include:
 - `merged_stock_prices.csv` – The final dataset combining historical stock prices and sentiment scores.
@@ -57,15 +58,15 @@ This folder contains all datasets used in this study, including stock prices and
 
 ---
 
-### 📜 **3. Documentation and Dependencies**
+### **3. Documentation and Dependencies**
 📍 **Location:** [`/Docs`](./Docs/)  
 This folder provides **project documentation, methodology details, and references**:
 - `README.md` – Additional explanations on the project's structure and implementation.
+- `Yiwei_Zhang_Final Project` – This is a research report that documents the research design and results.
 - Dependencies are listed within the Jupyter notebooks (`.ipynb` files), which include required Python packages such as `pycaret`, `scikit-learn`, `pandas`, and `matplotlib`.
 
-📍 **Additional Visualizations:** [`/Visualizations`](./Visualizations/)  
-- Contains plots and figures summarizing the results, including final project posters.
-
+📍 **Visualizations:** [`/Visualizations`](./Visualizations/)  
+- Contains detailed plots and figures summarizing the results, including final project posters.
 ---
 
 ### 🚀 **How to Get Started**
