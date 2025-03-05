@@ -11,7 +11,7 @@ This project was submitted for **STATS201: Machine Learning for Social Science**
 I sincerely appreciate the guidance and support from:
 - **Prof. Luyao Zhang** for her valuable guidance, feedback and mentorship during the course.
 - **Classmates** for their constructive discussions and peer reviews.
-- **AIGC Tools (e.g., ChatGPT-4o, Research Rabbit, Storm, Grammarly)** for assisting in code generation and debugging.
+- **AIGC Tools (e.g., ChatGPT-4o, Research Rabbit, Storm, Grammarly)** for assisting in literature review, code generation and debugging.
 - **Open-source software** Python open source libraries (e.g.,`scikit-learn`, `XGBoost`, `PyCaret`, and `Seaborn`), Whimsical (flowchart design) for making this project possible.
 
 ## Statement of Intellectual and Professional Growth
