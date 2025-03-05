@@ -1,4 +1,5 @@
-# Project Title: A Dual Approach to Stock Market Analysis: Integrating Machine Learning Forecasting and Regression Discontinuity to Assess the Impact of the Federal Reserve’s COVID-19 Policy Intervention on Investor Sentiment
+# Project Title: Investor Sentiment in Stock Price Forecasting and Policy Analysis: A Machine Learning Approach
+
 
 ## Author
 - **Yiwei Zhang** - *Brainstorm, Research Design, Data Analysis, Implementation*
@@ -18,20 +19,18 @@ I sincerely appreciate the guidance and support from:
 This course has opened a new door for me, introducing two significant aspects of my learning journey. First, I gained a comprehensive understanding of the research design process—from conceptualizing thought experiments and identifying relevant datasets to selecting appropriate machine learning techniques and implementing them through coding. Second, it provided a gateway into machine learning for social sciences, demonstrating how mainstream ML methods—such as explanation, prediction, and causal inference—can be applied to high-quality open-source datasets to drive cutting-edge research.
 
 Throughout the course, I developed foundations research methodlogy design, interdisciplinary problem-solving skills, and GitHub portfolio management, which were crucial in successfully executing this project. This final project experience helped me bridge theory and application by allowing me to explore real-world financial data, compare multiple machine learning models, and critically assess their predictive performance in the context of stock market volatility. This journey has not only strengthened my technical capabilities but also broadened my perspective on how machine learning can be leveraged for impactful research in ground breaking technologies and social sciences.
-## 📺 Demo Video & Poster
-🎥 **Demo Video:** [Embed or Link to Google Drive/YouTube]  
-🖼️ **Project Poster:** [Embed the poster image or link to PDF]  
+## Poster
+![Final Project Poster](https://github.com/user-attachments/assets/3cfc37fa-73b3-4a63-8059-997b4a473a2c)
+
+
 
 ## 📖 Table of Contents
-- [📊 Datasets](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Data/README.md)
+- [Introduction](#introduction)
+- [Navigation Instructions](#navigation instructions)
+- [📊 Datasets and Preprocessing](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Data/README.md)
 - [📂 Code](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Code)
 - [⚙️ Visualizations](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Visualizations)
 - [📈 Research Design Documents](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Docs)
-- [📌 Key Findings](#-key-findings)
-- [🔍 Limitations & Future Work](#-limitations--future-work)
-- [📎 References](#-references)
-- [👨‍💻 How to Run the Code](#-how-to-run-the-code)
-- [📜 License](#-license)
 
 ---
 
