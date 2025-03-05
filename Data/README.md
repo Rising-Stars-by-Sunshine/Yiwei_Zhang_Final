@@ -45,6 +45,7 @@ The **`train_stockemo.csv`** dataset contains sentiment data related to stock ma
 |--------|------------|---------|------------|--------------|------------|------------|
 | 100001 | 2020-01-01 | AAPL    | Excitement | Bullish      | "$AAPL skyrocketing 🚀" | "Apple skyrocketing" |
 | 100002 | 2020-01-02 | TSLA    | Panic      | Bearish      | "$TSLA crashing hard 😱" | "Tesla crashing hard" |
+
 This dataset can be used for financial sentiment/emotion classification and stock market time series prediction.
 
 ## Historical Price Data
