@@ -48,14 +48,7 @@ deactivate
 Once the virtual environment is activated, install all required Python packages:
 
 ```bash
-pip install numpy pandas scikit-learn tensorflow torch transformers matplotlib seaborn \
-    requests beautifulsoup4 Flask opencv-python scipy nltk tqdm Pillow \
-    PyYAML jsonschema protobuf grpcio google-auth google-auth-oauthlib google-cloud-storage \
-    google-cloud-bigquery google-cloud-firestore google-cloud-functions google-cloud-translate \
-    google-api-python-client google-auth-httplib2 jupyter jupyterlab notebook ipython \
-    ipykernel ipywidgets fastai datasets sentencepiece evaluate tensorboard xgboost \
-    plotly openai langchain huggingface-hub fastapi uvicorn typer pydantic rich \
-    networkx spacy gensim sympy pytest pylint mypy black isort flake8 autopep8
+pip install -r requirements.txt
 ```
 4 **Navigate to Code Directory**
 ```bash
@@ -69,3 +62,18 @@ python --version
 ```
 
 ## Dependencies
+
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.6.1
+pycaret==3.0.0
+xgboost==2.1.4
+lightgbm==4.5.0
+matplotlib==3.10.0
+seaborn==0.13.2
+nltk==3.9.1
+transformers==4.48.3
+jupyter==1.0.0
+notebook==6.5.5
+
+## Example Usage
