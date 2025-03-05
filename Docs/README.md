@@ -46,11 +46,7 @@ pip install -r requirements.txt
 cd Code
 python --version
 ```
-5 **Run the Code**
-```bash
-
-python --version
-```
+5 **Run the Jupyter Notebook**
 
 ## Dependencies
 
