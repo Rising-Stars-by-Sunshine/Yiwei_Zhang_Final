@@ -64,9 +64,9 @@ This folder contains all datasets used in this study, including stock prices and
 ### **3. Documentation and Dependencies**
 📍 **Location:** [`/Docs`](./Docs/)  
 This folder provides **project documentation, methodology details, and references**:
-- `README.md` – Additional explanations on the project's structure and implementation.
+- `README.md` – Documentation of code exeucution, dependencies, and usage example. 
 - `Yiwei_Zhang_Final Project` – This is a research report that documents the research design and results.
-- Dependencies are listed within the Jupyter notebooks (`.ipynb` files), which include required Python packages such as `pycaret`, `scikit-learn`, `pandas`, and `matplotlib`.
+- Dependencies are listed within the [`/requirements.txt`](./requirements.txt/) , which include required Python packages such as `pycaret`, `scikit-learn`, `pandas`, and `matplotlib`.
 
 📍 **Visualizations:** [`/Visualizations`](./Visualizations/)  
 - Contains detailed plots and figures summarizing the results, including final project posters.
