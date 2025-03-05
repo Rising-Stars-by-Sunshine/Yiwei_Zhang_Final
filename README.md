@@ -34,7 +34,7 @@ Throughout the course, I developed foundations research methodlogy design, inter
 - [Visualizations](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Visualizations)
 - [Research Design Documents](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Docs)
 - [Final Report](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Docs/Yiwei_Zhang_Final%20Project.pdf)
-
+- [Documentation of Code Execution and Dependencies](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Docs/README.md)
 ---
 
 ## Navigation Instructions
