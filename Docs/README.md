@@ -6,7 +6,7 @@ To replicate the analysis:
  git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final.git
    cd Yiwei_Zhang_Final
 ```
-2 **📌 Create a Virtual Environment (optional bu recommended**
+2 **📌 Create a Virtual Environment (optional but recommended)**
 A **virtual environment** helps manage dependencies **without affecting global Python installations**.
 
 #### **For Linux & macOS:**
@@ -78,9 +78,25 @@ python --version
 
 ---
 
-## **Installation**  
+**Installation**  
 Run the following command to install all dependencies:  
 ```sh
 pip install -r requirements.txt
-
+```
 ## Example Usage
+### 1. Running Stock Price Prediction (Baseline Model):  
+- To forecast stock prices using historical data only, run the following notebook:  
+
+```sh
+jupyter notebook Prediction (1).ipynb
+```
+### 2. Running Sentiment-Enhanced Prediction:
+- To integrate investor sentiment scores into stock price forecasting, run:
+```sh
+jupyter notebook Prediction_2_version (1).ipynb
+```
+### 3. Running Causal Inference Analysis:
+- To perform Regression Discontinuity (RD) analysis on the impact of Federal Reserve’s COVID-19 intervention, run:
+```sh
+jupyter notebook Causal_Inference.ipynb
+```
