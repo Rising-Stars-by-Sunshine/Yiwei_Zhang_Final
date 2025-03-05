@@ -27,11 +27,12 @@ Throughout the course, I developed foundations research methodlogy design, inter
 ## 📖 Table of Contents
 - [Acknowledgments](#Acknowledgments)
 - [Navigation Instructions](#navigation-instructions)
+- [Statement of Intellectual and Professional Growth](#Statement-of-Intellectual-and-Professional-Growth)
 - [Datasets and Preprocessing](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Data/README.md)
 - [Code](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Code)
 - [Visualizations](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Visualizations)
 - [Research Design Documents](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Docs)
-- [Final Report]()
+- [Final Report](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Docs/Yiwei_Zhang_Final%20Project.pdf)
 
 ---
 
@@ -72,74 +73,11 @@ This folder provides **project documentation, methodology details, and reference
 
 ### 🚀 **How to Get Started**
 To replicate the analysis:
-1. **Clone this repository**  
-   ```sh
-   git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final.git
-   cd Yiwei_Zhang_Final
-
-
-
-# A Dual Approach to Stock Market Analysis: Integrating Machine Learning Forecasting and Regression Discontinuity to Assess the Impact of the Federal Reserve’s COVID-19 Policy Intervention on Investor Sentiment
-
-# 🖥️ System Configuration Instructions
-
-This repository contains the system configuration details, including **CPU, Memory, Disk Space, Python environment, and installed packages**. These specifications ensure compatibility and reproducibility for research and development.
-
-## ⚙️ **System Specifications**
-### **CPU Information**
-- **Architecture:** x86_64
-- **CPU Model:** Intel(R) Xeon(R) CPU @ 2.20GHz
-- **Cores:** 1 socket, 2 CPUs, 2 threads per core
-- **Virtualization:** Full (KVM)
-- **Cache:**
-  - **L1:** 32 KiB
-  - **L2:** 256 KiB
-  - **L3:** 55 MiB
-
-### **Memory Information**
-- **Total RAM:** 12 GiB
-- **Available:** 11 GiB
-- **Swap Memory:** Not enabled
-
-### **Disk Space**
-| Filesystem | Size | Used | Available | Usage % |
-|------------|------|------|-----------|---------|
-| Overlay    | 108G | 32G  | 77G       | 29%     |
-| /dev/sda1  | 76G  | 56G  | 21G       | 74%     |
-
-### **GPU Information**
-- 🚫 **No GPU detected** (Runs on CPU)
-
----
-
-## 🐍 **Python Environment**
-- **Python Version:** `3.11.11`
-- **Package Manager:** `pip`
-- **Installed Packages:** (`pip list`)
-  
-### **📦 Key Installed Packages**
-| Package | Version |
-|---------|---------|
-| `numpy` | 1.26.4 |
-| `pandas` | 2.2.2 |
-| `scikit-learn` | 1.6.0 |
-| `tensorflow` | 2.17.1 |
-| `torch` | 2.5.1+cu121 |
-| `transformers` | 4.47.1 |
-| `matplotlib` | 3.10.0 |
-| `seaborn` | 0.13.2 |
-
-
----
-
-## 🚀 **How to Use**
-### **📌 Setup Environment**
-To replicate this system environment, follow these steps:
 
 1️⃣ **Clone Repository**  
 ```bash
-git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_PS2.git
-cd Yiwei_Zhang_PS1
+ git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final.git
+   cd Yiwei_Zhang_Final
 ```
 2️⃣ **📌 Create a Virtual Environment**
 A **virtual environment** helps manage dependencies **without affecting global Python installations**.
@@ -196,8 +134,4 @@ pip install numpy pandas scikit-learn tensorflow torch transformers matplotlib s
 ```bash
 pip list  
 python --version
-```
-5️⃣ **Running the Project**
-```bash
-python EDA-2.ipynb
 ```
