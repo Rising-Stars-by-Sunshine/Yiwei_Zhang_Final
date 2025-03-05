@@ -35,6 +35,48 @@ Throughout the course, I developed foundations research methodlogy design, inter
 
 ---
 
+## 📂 Navigation Instructions
+
+This repository is organized into multiple directories to facilitate **code execution, dataset access, and documentation review**. Below is a guide to navigating the repository:
+
+### 🔹 **1. Code for Simulations and Visualizations**
+📍 **Location:** [`/Code`](./Code/)  
+This folder contains Jupyter notebooks for **data preprocessing, machine learning predictions, and causal inference analysis**. Key files include:
+- `Data Preprocessing & EDA.ipynb` – Prepares and cleans the dataset before modeling.
+- `Prediction (1).ipynb` – Implements machine learning models for stock price prediction.
+- `Prediction_2_version (1).ipynb` – Integrates sentiment data into stock prediction.
+- `Causal_Inference.ipynb` – Conducts regression discontinuity (RD) analysis (detailed in the appendix).
+
+---
+
+### 📂 **2. Datasets and Preprocessing Steps**
+📍 **Location:** [`/Data`](./Data/)  
+This folder contains all datasets used in this study, including stock prices and sentiment analysis data. Key files include:
+- `merged_stock_prices.csv` – The final dataset combining historical stock prices and sentiment scores.
+- `train_stockemo.csv` – The raw dataset containing investor sentiment labels.
+- `price_raw_data.zip` – Original stock price data before preprocessing.
+
+---
+
+### 📜 **3. Documentation and Dependencies**
+📍 **Location:** [`/Docs`](./Docs/)  
+This folder provides **project documentation, methodology details, and references**:
+- `README.md` – Additional explanations on the project's structure and implementation.
+- Dependencies are listed within the Jupyter notebooks (`.ipynb` files), which include required Python packages such as `pycaret`, `scikit-learn`, `pandas`, and `matplotlib`.
+
+📍 **Additional Visualizations:** [`/Visualizations`](./Visualizations/)  
+- Contains plots and figures summarizing the results, including final project posters.
+
+---
+
+### 🚀 **How to Get Started**
+To replicate the analysis:
+1. **Clone this repository**  
+   ```sh
+   git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final.git
+   cd Yiwei_Zhang_Final
+
+
 
 # A Dual Approach to Stock Market Analysis: Integrating Machine Learning Forecasting and Regression Discontinuity to Assess the Impact of the Federal Reserve’s COVID-19 Policy Intervention on Investor Sentiment
 
