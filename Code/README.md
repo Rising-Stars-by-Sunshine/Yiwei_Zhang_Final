@@ -6,7 +6,8 @@ This repository contains **Jupyter Notebooks** for research on **causal inferenc
 | `Causal_Inference.ipynb` | Implements **Regression Discontinuity (RD) Design** and other causal inference methods. |
 | `Data Preprocessing & EDA.ipynb` | Performs **data cleaning, feature engineering, and exploratory data analysis**. |
 | `Machine_Learning_for_Explanations_for_Literature_Review.ipynb` | Uses automated Literature Review using arXiv API!|
-| `Prediction (1).ipynb` | Builds **predictive models** for forecasting and statistical analysis. |
+| `Prediction (1).ipynb` | Builds **predictive models** for forecasting basad solely on historical price data. |
+| `Prediction_2_version_(1).ipynb` | Builds **predictive models** for forecasting based on both sentiment data and historical price data. |
 | `README.md` | This documentation file. |
 
 ---
@@ -15,7 +16,7 @@ This repository contains **Jupyter Notebooks** for research on **causal inferenc
 ## **🚀 How to Use This Repository**
 ### **🔹 Clone the Repository**
 ```bash
-git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_PS2
+git clone https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final
 ```
 
 
