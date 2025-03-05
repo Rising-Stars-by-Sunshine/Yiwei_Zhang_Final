@@ -28,6 +28,7 @@ Throughout the course, I developed foundations research methodlogy design, inter
 - [Acknowledgments](#Acknowledgments)
 - [Navigation Instructions](#navigation-instructions)
 - [Statement of Intellectual and Professional Growth](#Statement-of-Intellectual-and-Professional-Growth)
+- [Poster](#Poster)
 - [Datasets and Preprocessing](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Data/README.md)
 - [Code](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Code)
 - [Visualizations](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/tree/main/Visualizations)
