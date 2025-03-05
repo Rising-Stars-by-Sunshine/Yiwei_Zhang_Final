@@ -1,4 +1,4 @@
-This repository contains a financial-domain-focused dataset for financial sentiment/emotion classification and stock market time series prediction. It's an open access dataset comes from the paper: [StockEmotions: Discover Investor Emotions for Financial Sentiment Analysis and Multivariate Time Series](https://arxiv.org/abs/2301.09279) accepted by AAAI 2023 Bridge (AI for Financial Services).
+This data folder contains financial-domain-focused datasets for financial sentiment/emotion classification and stock market time series prediction. The first is an open access dataset comes from the paper: [StockEmotions: Discover Investor Emotions for Financial Sentiment Analysis and Multivariate Time Series](https://arxiv.org/abs/2301.09279) accepted by AAAI 2023 Bridge (AI for Financial Services). The second dataset also comes from this paper and contains 38 companies histrical price data from Yahoo finance. 
 > Lee, Jean, Hoyoul Luis Youn, Josiah Poon, and Soyeon Caren Han. “StockEmotions: Discover Investor Emotions for Financial Sentiment Analysis and Multivariate Time Series.” arXiv, February 6, 2023. https://doi.org/10.48550/arXiv.2301.09279.
 
 
@@ -43,8 +43,8 @@ Below is a preview of the dataset:
 
 This dataset can be used for financial sentiment/emotion classification and stock market time series prediction.
 
-
-- price data: price_raw data.zip, merged_stock_prices.csv. 
+## Historical Price Data
+price data: price_raw data.zip, merged_stock_prices.csv. 
     - **38 companies histrical price data in the zip file** in csv format. The tweet and price dataset together are used for Multivariate Time Series tasks. 
     - Tickers: 
         'AAPL', 'ABNB', 'AMT', 'AMZN', 'BA', 'BABA', 'BAC', 'BKNG', 'BRK.A', 'BRK.B', 'CCL', 'CVX',
