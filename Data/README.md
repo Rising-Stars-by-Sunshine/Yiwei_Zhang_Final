@@ -15,38 +15,43 @@ This data folder contains financial-domain-focused datasets for financial sentim
 ## Data explained
 - tweet data: train_stockemo.csv
     - **train_stockemo.csv** : In total, 8000 samples. The file has id, date, ticker, emo_label, senti_lable, original, and processed content. For the data curation, processing (e.g. emoji, CTAG, HTAG), and annotation, we refer to our paper. The dataset is used for Financial Sentiment/Emotion Classification tasks.
-    - [Download the dataset](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_PS2/blob/main/Data/merged_stock_prices.csv)
+    - [Download the dataset](https://github.com/Rising-Stars-by-Sunshine/Yiwei_Zhang_Final/blob/main/Data/merged_stock_prices.csv)
 
 ## Data Dictionary for train_stockemo.csv
 
 The dataset contains stock market sentiment and emotion analysis data with the following columns:
 
-| Column Name  | Data Type  | Description  |
-|-------------|------------|-----------------------------------------------|
-| ID          | Integer    | Unique identifier for the record |
-| Date        | String     | Date of the stock-related event (YYYY-MM-DD) |
-| Stock       | String     | Stock ticker symbol (e.g., AAPL, TSLA) |
-| Text        | String     | Stock market-related news or text |
-| Sentiment   | Float      | Sentiment score assigned to the text |
-| Emotion     | String     | Emotion category detected in the text (e.g., Joy, Fear) |
-| Close Price | Float      | Closing price of the stock on the given date |
-| Volume      | Integer    | Stock trading volume on the given date |
+# 📌 Data Dictionary for `train_stockemo.csv`
 
-## Sample Data
+The **`train_stockemo.csv`** dataset contains sentiment data related to stock market discussions. Each row represents a **timestamped sentiment entry** associated with a specific stock.
 
-Below is a preview of the dataset:
+## 📊 Dataset Overview
 
-| ID | Date       | Stock | Text                                     | Sentiment | Emotion | Close Price | Volume  |
-|----|----------- |-------|------------------------------------------|-----------|---------|-------------|---------|
-| 1  | 2023-01-05 | AAPL  | "Apple stock surges as earnings beat expectations."  | 0.85      | Joy     | 142.56       | 98,200  |
-| 2  | 2023-01-06 | TSLA  | "Tesla shares drop after regulatory concerns arise." | -0.75     | Fear    | 111.23       | 120,500 |
+| **Column Name**  | **Data Type** | **Description** |
+|-----------------|------------|----------------|
+| `id`           | `int`      | Unique identifier for each sentiment entry. |
+| `date`         | `datetime` | Date of sentiment capture (`YYYY-MM-DD` format). |
+| `ticker`       | `str`      | Stock ticker symbol associated with the sentiment (e.g., `AAPL`, `TSLA`). |
+| `emo_label`    | `str`      | Emotion category assigned to the sentiment (e.g., *Optimism, Panic, Amusement*). |
+| `senti_label`  | `str`      | Broad sentiment classification (`bullish` or `bearish`). |
+| `original`     | `str`      | Raw text data from which sentiment was derived. |
+| `processed`    | `str`      | Cleaned and preprocessed text data (stopwords removed, standardized formatting). |
+
+---
+
+## 📂 Sample Data (First Two Rows)
+
+| `id`    | `date`       | `ticker` | `emo_label` | `senti_label` | `original` | `processed` | `sentiment_score` |
+|--------|------------|---------|------------|--------------|------------|------------|----------------|
+| 100001 | 2020-01-01 | AAPL    | Excitement | Bullish      | "$AAPL skyrocketing 🚀" | "Apple skyrocketing" | +3 |
+| 100002 | 2020-01-02 | TSLA    | Panic      | Bearish      | "$TSLA crashing hard 😱" | "Tesla crashing hard" | -3 |
 
 This dataset can be used for financial sentiment/emotion classification and stock market time series prediction.
 
 ## Historical Price Data
 price data: price_raw data.zip, merged_stock_prices.csv. 
-    - **38 companies histrical price data in the zip file** in csv format. The tweet and price dataset together are used for Multivariate Time Series tasks. 
-    - Tickers: 
+- **38 companies histrical price data in the zip file** in csv format. The tweet and price dataset together are used for Multivariate Time Series tasks. 
+- Tickers: 
         'AAPL', 'ABNB', 'AMT', 'AMZN', 'BA', 'BABA', 'BAC', 'BKNG', 'BRK.A', 'BRK.B', 'CCL', 'CVX',
         'DIS', 'FB', 'GOOG', 'GOOGL', 'HD', 'JNJ', 'JPM', 'KO', 'LOW', 'MA', 'MCD', 'MSFT', 'NFLX',
         'NKE', 'NVDA', 'PFE', 'PG', 'PYPL', 'SBUX', 'TM', 'TSLA', 'TSM', 'UNH', 'UPS', 'V', 'WMT', 'XOM'
